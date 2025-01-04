@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_ui_carouser_homes",
+  "info": {
+    "displayName": "carouselHome",
+    "icon": "brush",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files"
+      ]
+    },
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "duracion": {
+      "type": "string",
+      "required": true
+    },
+    "link": {
+      "type": "string",
+      "required": true
+    },
+    "buttonName": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
