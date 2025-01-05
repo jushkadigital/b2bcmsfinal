@@ -2873,6 +2873,7 @@ COPY public.admin_roles (id, document_id, name, code, description, created_at, u
 
 COPY public.admin_users (id, document_id, firstname, lastname, username, email, password, reset_password_token, registration_token, is_active, blocked, prefered_language, created_at, updated_at, published_at, created_by_id, updated_by_id, locale) FROM stdin;
 1	xl1kovhqssq08l3tmwbc6rqc	josue	cornejo	\N	admin@gmail.com	$2a$10$2GZg0EvOJ5DQUW2M4mohm.qEQIWpbvfletEr9uagW2j9WjDzf0qv.	\N	\N	t	f	\N	2025-01-04 16:11:47.123	2025-01-04 16:11:47.123	2025-01-04 16:11:47.124	\N	\N	\N
+2	ibp6ockw4aa8y6nrcl62plz5	jos	cor	\N	urgosxd@gmail.com	$2a$10$iWljUQ.UPQjp7MrtJdpydungeriChhWToTNb7l.A5Qu/TqUC12Cce	\N	\N	t	f	\N	2025-01-05 00:14:15.355	2025-01-05 00:14:56.155	2025-01-05 00:14:15.357	\N	\N	\N
 \.
 
 
@@ -2882,6 +2883,7 @@ COPY public.admin_users (id, document_id, firstname, lastname, username, email, 
 
 COPY public.admin_users_roles_lnk (id, user_id, role_id, role_ord, user_ord) FROM stdin;
 1	1	1	1	1
+2	2	2	1	1
 \.
 
 
@@ -3384,14 +3386,14 @@ SELECT pg_catalog.setval('public.admin_roles_id_seq', 3, true);
 -- Name: admin_users_id_seq; Type: SEQUENCE SET; Schema: public; Owner: strapi
 --
 
-SELECT pg_catalog.setval('public.admin_users_id_seq', 1, true);
+SELECT pg_catalog.setval('public.admin_users_id_seq', 2, true);
 
 
 --
 -- Name: admin_users_roles_lnk_id_seq; Type: SEQUENCE SET; Schema: public; Owner: strapi
 --
 
-SELECT pg_catalog.setval('public.admin_users_roles_lnk_id_seq', 1, true);
+SELECT pg_catalog.setval('public.admin_users_roles_lnk_id_seq', 2, true);
 
 
 --
