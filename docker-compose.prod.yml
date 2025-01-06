@@ -26,10 +26,8 @@ services:
 
       - ./.env:/opt/app/.env
       - ./public/uploads:/opt/app/public/uploads
-    ports:
-      - '1331:1337'
-    networks:
-      - b2bcmsfinal
+    expose:
+      - 1331
     depends_on:
       - b2bcmsfinalDB
       
@@ -49,8 +47,6 @@ services:
 
     ports:
       - '5432:5432'
-    networks:
-      - b2bcmsfinal
       
   b2bcmsfinalAdminer:
     container_name: b2bcmsfinalAdminer
@@ -60,8 +56,6 @@ services:
       - '9090:8080'
     environment:
       - ADMINER_DEFAULT_SERVER=b2bcmsfinalDB
-    networks:
-      - b2bcmsfinal
     depends_on:
       - b2bcmsfinalDB
 
@@ -69,6 +63,9 @@ volumes:
   b2bcmsfinal-data:
 
 networks:
-  b2bcmsfinal:
-    name: B2bcmsfinal
-    driver: bridge
+  # b2bcmsfinal:
+  #   name: B2bcmsfinal
+  #   driver: bridge
+  default:
+    external: true
+    name: proxiable
