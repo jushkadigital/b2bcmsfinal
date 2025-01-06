@@ -47,15 +47,6 @@
       "type": "string",
       "required": true
     },
-    "parrafo": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string",
-      "required": true
-    },
     "imagenParrafo": {
       "type": "media",
       "multiple": false,
@@ -153,17 +144,17 @@
       "required": true
     },
     "autorizaciones": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
       "allowedTypes": [
         "images"
       ],
-      "type": "media",
-      "multiple": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "required": true
+      }
     },
     "tituloValores": {
       "pluginOptions": {
@@ -195,17 +186,17 @@
       "required": true
     },
     "partners": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
       "allowedTypes": [
         "images"
       ],
-      "type": "media",
-      "multiple": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "required": true
+      }
     },
     "tituloCertificados": {
       "pluginOptions": {
@@ -217,17 +208,17 @@
       "required": true
     },
     "certificados": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
       "allowedTypes": [
         "images"
       ],
-      "type": "media",
-      "multiple": true,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "required": true
+      }
     },
     "tituloEstadisticas": {
       "pluginOptions": {
@@ -247,6 +238,15 @@
         }
       },
       "component": "ui.estadisticas-nosotros",
+      "required": true
+    },
+    "parrafo": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "blocks",
       "required": true
     }
   }
