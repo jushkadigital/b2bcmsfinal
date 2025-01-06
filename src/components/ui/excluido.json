@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_ui_excluidos",
+  "info": {
+    "displayName": "excluidoPaquetes",
+    "icon": "brush",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

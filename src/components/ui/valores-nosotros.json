@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_ui_valores_nosotros",
+  "info": {
+    "displayName": "valoresNosotros",
+    "icon": "brush",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imagen": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "label": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_ui_estadisticas_nosotros",
+  "info": {
+    "displayName": "estadisticasNosotros",
+    "icon": "brush"
+  },
+  "options": {},
+  "attributes": {
+    "redLetras": {
+      "type": "string",
+      "required": true
+    },
+    "grayLetras": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

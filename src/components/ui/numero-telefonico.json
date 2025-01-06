@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_ui_numero_telefonicos",
+  "info": {
+    "displayName": "numeroTelefonico",
+    "icon": "brush"
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

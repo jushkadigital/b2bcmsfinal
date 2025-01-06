@@ -12,22 +12,33 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Paquete_Titulo": {
+    "tituloPaquete": {
       "type": "string",
       "required": true
     },
-    "Destino_Titulo": {
+    "tituloDestino": {
       "type": "string",
       "required": true
     },
-    "Formulario_Titulo": {
+    "tituloFormulario": {
       "type": "string",
       "required": true
     },
-    "carousel": {
+    "subtituloFormulario": {
+      "type": "string",
+      "required": true
+    },
+    "galleriaCarousel": {
+      "type": "dynamiczone",
+      "components": [
+        "ui.carouser-home",
+        "ui.carousel2-home"
+      ]
+    },
+    "faq": {
       "type": "component",
       "repeatable": true,
-      "component": "ui.carouser-home",
+      "component": "ui.faq",
       "required": true
     }
   }

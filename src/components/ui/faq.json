@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_ui_faqs",
+  "info": {
+    "displayName": "faq",
+    "icon": "brush"
+  },
+  "options": {},
+  "attributes": {
+    "pregunta": {
+      "type": "string",
+      "required": true
+    },
+    "respuesta": {
+      "type": "blocks",
+      "required": true
+    }
+  }
+}

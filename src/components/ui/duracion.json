@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_ui_duracions",
+  "info": {
+    "displayName": "duracion",
+    "icon": "brush",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "dias": {
+      "type": "string",
+      "required": true
+    },
+    "noches": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

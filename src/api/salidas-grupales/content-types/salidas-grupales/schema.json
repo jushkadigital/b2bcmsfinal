@@ -1,0 +1,32 @@
+{
+  "kind": "singleType",
+  "collectionName": "salidas_grupaless",
+  "info": {
+    "singularName": "salidas-grupales",
+    "pluralName": "salidas-grupaless",
+    "displayName": "salidasGrupales"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "fondo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "required": true
+    }
+  }
+}

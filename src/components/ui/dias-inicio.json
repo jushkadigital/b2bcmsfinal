@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_ui_dias_inicios",
+  "info": {
+    "displayName": "diasInicio",
+    "icon": "brush"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "item": {
+      "type": "blocks",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_ui_puvs",
+  "info": {
+    "displayName": "puv",
+    "icon": "brush"
+  },
+  "options": {},
+  "attributes": {
+    "puv": {
+      "type": "string",
+      "required": true
+    },
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "imagen": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

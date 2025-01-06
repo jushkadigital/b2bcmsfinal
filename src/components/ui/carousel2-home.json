@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_ui_carousel2_homes",
+  "info": {
+    "displayName": "Carousel2Home",
+    "icon": "brush"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "button": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
