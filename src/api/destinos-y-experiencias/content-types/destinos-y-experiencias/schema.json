@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "destinos_y_experienciass",
+  "info": {
+    "singularName": "destinos-y-experiencias",
+    "pluralName": "destinos-y-experienciass",
+    "displayName": "Destinos y Experiencias"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    }
+  }
+}
