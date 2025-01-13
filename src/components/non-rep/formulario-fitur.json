@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_non_rep_formulario_fiturs",
+  "info": {
+    "displayName": "formularioFitur"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "buttonName": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

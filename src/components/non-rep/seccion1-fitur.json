@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_non_rep_seccion1_fiturs",
+  "info": {
+    "displayName": "Seccion1Fitur",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "parrafo": {
+      "type": "blocks",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}

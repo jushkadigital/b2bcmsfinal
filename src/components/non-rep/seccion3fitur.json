@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_non_rep_seccion3fiturs",
+  "info": {
+    "displayName": "seccion3fitur"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "beneficios": {
+      "displayName": "beneficiosFitur",
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.beneficios-fitur"
+    },
+    "Formulario": {
+      "displayName": "formularioFitur",
+      "type": "component",
+      "repeatable": false,
+      "component": "non-rep.formulario-fitur",
+      "required": true
+    }
+  }
+}
