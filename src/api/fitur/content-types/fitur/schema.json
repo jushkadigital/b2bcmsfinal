@@ -36,17 +36,6 @@
       },
       "component": "non-rep.seccion1-fitur"
     },
-    "seccion2fitur": {
-      "displayName": "Seccion2",
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "non-rep.seccion2"
-    },
     "Seccion3": {
       "displayName": "seccion3fitur",
       "type": "component",
@@ -94,6 +83,25 @@
         }
       },
       "component": "non-rep.seccion1-fitur"
+    },
+    "qqq": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "Seccion2": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "non-rep.seccion2"
     }
   }
 }

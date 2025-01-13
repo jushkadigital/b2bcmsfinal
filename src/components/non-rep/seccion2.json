@@ -1,8 +1,14 @@
 {
   "collectionName": "components_non_rep_seccion2s",
   "info": {
-    "displayName": "Seccion2"
+    "displayName": "Seccion2",
+    "description": ""
   },
   "options": {},
-  "attributes": {}
+  "attributes": {
+    "oo": {
+      "type": "string",
+      "required": true
+    }
+  }
 }
