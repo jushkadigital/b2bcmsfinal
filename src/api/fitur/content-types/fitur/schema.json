@@ -84,6 +84,16 @@
       },
       "type": "string",
       "required": true
+    },
+    "Seccion15": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "non-rep.seccion1-fitur"
     }
   }
 }
