@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_non_rep_incluye_no_incluye_itinerarios",
+  "info": {
+    "displayName": "incluyeNoIncluyeItinerario"
+  },
+  "options": {},
+  "attributes": {
+    "incluyeSubtitle": {
+      "type": "string",
+      "required": true
+    },
+    "incluye": {
+      "displayName": "incluyeSeccionItinerario",
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.incluye-seccion-itinerario",
+      "required": true
+    },
+    "NoIncluyeSubtitle": {
+      "type": "string",
+      "required": true
+    },
+    "NoIncluye": {
+      "displayName": "noIncluyeSeccionItinerario",
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.no-incluye-seccion-itinerario",
+      "required": true
+    }
+  }
+}

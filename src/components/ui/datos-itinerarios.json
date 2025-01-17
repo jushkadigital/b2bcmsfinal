@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_ui_datos_itinerarios",
+  "info": {
+    "displayName": "datosItinerarios"
+  },
+  "options": {},
+  "attributes": {
+    "amarilloTitle": {
+      "type": "string",
+      "required": true
+    },
+    "blancoTitle": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

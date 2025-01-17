@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_ui_no_incluye_seccion_itinerarios",
+  "info": {
+    "displayName": "noIncluyeSeccionItinerario"
+  },
+  "options": {},
+  "attributes": {
+    "items": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

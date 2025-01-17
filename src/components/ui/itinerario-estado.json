@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_ui_itinerario_estados",
+  "info": {
+    "displayName": "itinerarioEstado"
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

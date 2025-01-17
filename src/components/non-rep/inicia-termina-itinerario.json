@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_non_rep_inicia_termina_itinerarios",
+  "info": {
+    "displayName": "iniciaTerminaItinerario"
+  },
+  "options": {},
+  "attributes": {
+    "Inicia": {
+      "type": "string",
+      "required": true
+    },
+    "termina": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

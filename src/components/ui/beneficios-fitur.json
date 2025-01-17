@@ -1,24 +1,25 @@
 {
   "collectionName": "components_ui_beneficios_fiturs",
   "info": {
-    "displayName": "beneficiosFitur"
+    "displayName": "beneficiosFitur",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "logo": {
-      "allowedTypes": [
-        "images"
-      ],
-      "type": "media",
-      "multiple": false,
-      "required": true
-    },
     "beneficio": {
       "type": "string",
       "required": true
     },
     "descripcion": {
       "type": "string",
+      "required": true
+    },
+    "logo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
       "required": true
     }
   }
