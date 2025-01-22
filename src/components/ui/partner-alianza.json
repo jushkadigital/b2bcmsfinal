@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_ui_partner_alianzas",
+  "info": {
+    "displayName": "partnerAlianza"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

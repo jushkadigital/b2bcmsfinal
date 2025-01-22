@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_non_rep_benecios_home_seccions",
+  "info": {
+    "displayName": "BeneciosHomeSeccion"
+  },
+  "options": {},
+  "attributes": {
+    "beneficio": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.beneficios-fitur",
+      "required": true
+    },
+    "linkVideo": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

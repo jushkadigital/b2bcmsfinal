@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_non_rep_faq_seccions",
+  "info": {
+    "displayName": "FAQSeccion"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "faq": {
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.faq",
+      "required": true
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_non_rep_video_sections",
+  "info": {
+    "displayName": "videoSection"
+  },
+  "options": {},
+  "attributes": {
+    "videoFile": {
+      "allowedTypes": [
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "textoOne": {
+      "type": "string",
+      "required": true
+    },
+    "textoTwo": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

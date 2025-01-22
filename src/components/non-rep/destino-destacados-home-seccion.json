@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_non_rep_destino_destacados_home_seccions",
+  "info": {
+    "displayName": "destinoDestacadosHomeSeccion"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "leyenda": {
+      "displayName": "leyendaDestinosSeccion",
+      "type": "component",
+      "repeatable": false,
+      "component": "non-rep.leyenda-destinos-seccion",
+      "required": true
+    },
+    "button": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

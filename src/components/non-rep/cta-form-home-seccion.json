@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_non_rep_cta_form_home_seccions",
+  "info": {
+    "displayName": "ctaFormHomeSeccion"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "PoliticaDePrivacidad": {
+      "type": "blocks",
+      "required": false
+    }
+  }
+}

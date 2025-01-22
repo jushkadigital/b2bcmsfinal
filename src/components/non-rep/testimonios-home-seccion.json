@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_non_rep_testimonios_home_seccions",
+  "info": {
+    "displayName": "testimoniosHomeSeccion"
+  },
+  "options": {},
+  "attributes": {
+    "background": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "linkVideo": {
+      "type": "string",
+      "required": true
+    },
+    "testimonio": {
+      "displayName": "testimonioHome",
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.testimonio-home",
+      "required": true
+    }
+  }
+}

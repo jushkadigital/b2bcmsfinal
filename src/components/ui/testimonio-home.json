@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_ui_testimonio_homes",
+  "info": {
+    "displayName": "testimonioHome"
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

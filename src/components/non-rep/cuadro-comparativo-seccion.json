@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_non_rep_cuadro_comparativo_seccions",
+  "info": {
+    "displayName": "cuadroComparativoSeccion"
+  },
+  "options": {},
+  "attributes": {
+    "cuadro": {
+      "type": "richtext",
+      "required": true
+    },
+    "titulo": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

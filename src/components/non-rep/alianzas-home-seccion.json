@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_non_rep_alianzas_home_seccions",
+  "info": {
+    "displayName": "AlianzasHomeSeccion"
+  },
+  "options": {},
+  "attributes": {
+    "partner": {
+      "displayName": "partnerAlianza",
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.partner-alianza",
+      "required": true
+    }
+  }
+}

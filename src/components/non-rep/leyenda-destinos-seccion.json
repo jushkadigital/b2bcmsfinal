@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_non_rep_leyenda_destinos_seccions",
+  "info": {
+    "displayName": "leyendaDestinosSeccion"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "content": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

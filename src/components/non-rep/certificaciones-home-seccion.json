@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_non_rep_certificaciones_home_seccions",
+  "info": {
+    "displayName": "certificacionesHomeSeccion"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "certificados": {
+      "allowedTypes": [
+        "images",
+        "files"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    }
+  }
+}

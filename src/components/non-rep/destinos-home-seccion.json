@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_non_rep_destinos_home_seccions",
+  "info": {
+    "displayName": "DestinosHomeSeccion"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "destino": {
+      "displayName": "destinoHomeRep",
+      "type": "component",
+      "repeatable": true,
+      "component": "ui.destino-home-rep",
+      "required": true
+    }
+  }
+}
