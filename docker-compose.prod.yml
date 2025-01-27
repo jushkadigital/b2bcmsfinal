@@ -18,9 +18,10 @@ services:
       ADMIN_JWT_SECRET: ${ADMIN_JWT_SECRET}
       DATABASE_PASSWORD: ${DATABASE_PASSWORD}
       NODE_ENV: ${NODE_ENV}
+      STRAPI_DISABLE_REMOTE_DATA_TRANSFER: false
       STRAPI_PLUGIN_CONTENT_MANAGER_ALLOW_CONTENT_TYPE_BUILDER: true
     volumes:
-      - ./config:/opt/app/config
+      - strapiconfig:/opt/app/config
       - strapisrc:/opt/app/src
       - ./package.json:/opt/package.json
       - ./package-lock.json:/opt/package-lock.json
@@ -63,6 +64,7 @@ services:
 volumes:
   b2bcmsfinal-data:
   strapisrc:
+  strapiconfig:
 
 networks:
   # b2bcmsfinal:
